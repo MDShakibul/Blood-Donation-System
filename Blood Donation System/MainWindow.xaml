@@ -1,0 +1,20 @@
+﻿<Window x:Class="Blood_Donation_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Donation_System"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="440" Width="720">
+    <Grid Background="#FFD7D7D7">
+        <Label x:Name="label" Content="WELCOME TO THE BLOOD DONATION SYSTEM" HorizontalAlignment="Left" Margin="141,24,0,0" VerticalAlignment="Top" Height="45" Width="455" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="label_Copy" Content="Member ID :" HorizontalAlignment="Left" Margin="33,170,0,0" VerticalAlignment="Top" Height="35" Width="105" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <Label x:Name="label_Copy1" Content="Password :" HorizontalAlignment="Left" Margin="33,234,0,0" VerticalAlignment="Top" Height="35" Width="105" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <TextBox x:Name="txt_id" HorizontalAlignment="Left" Height="35" Margin="151,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="376" GotFocus="btn_f"/>
+        <PasswordBox x:Name="pass_pass" HorizontalAlignment="Left" Height="35" Margin="151,236,0,0" VerticalAlignment="Top" Width="376"/>
+        <Button x:Name="button" Content="Log In" HorizontalAlignment="Left" Margin="392,346,0,0" VerticalAlignment="Top" Width="123" Height="36" FontSize="16" FontWeight="Bold" Background="White" Click="btn_login"/>
+        <Button x:Name="button_Copy" Content="Join Now" HorizontalAlignment="Left" Margin="547,346,0,0" VerticalAlignment="Top" Width="114" Height="36" FontWeight="Bold" FontSize="16" Background="White" Click="btn_join"/>
+        <TextBlock x:Name="msg" HorizontalAlignment="Left" Margin="151,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="35" Width="376"/>
+
+    </Grid>
+</Window>

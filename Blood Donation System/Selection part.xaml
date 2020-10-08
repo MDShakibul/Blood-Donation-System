@@ -1,0 +1,19 @@
+﻿<Window x:Class="Blood_Donation_System.Selection_part"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Donation_System"
+        mc:Ignorable="d"
+        Title="Selection_part" Height="440" Width="720">
+    <Grid Background="#FFD7D7D7">
+        <Label x:Name="label" Content="Add Person" HorizontalAlignment="Left" Margin="78,89,0,0" VerticalAlignment="Top" Height="39" Width="367" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="label_Copy" Content="Add Blood Bank" HorizontalAlignment="Left" Margin="78,153,0,0" VerticalAlignment="Top" Height="39" Width="367" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="label_Copy1" Content="Add University" HorizontalAlignment="Left" Margin="78,213,0,0" VerticalAlignment="Top" Height="39" Width="367" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="button" Content="Click Here" HorizontalAlignment="Left" Margin="488,89,0,0" VerticalAlignment="Top" Width="117" Height="39" FontSize="16" FontWeight="Bold" Background="White" Click="btn_person"/>
+        <Button x:Name="button_Copy" Content="Click Here" HorizontalAlignment="Left" Margin="488,153,0,0" VerticalAlignment="Top" Width="117" Height="39" FontSize="16" FontWeight="Bold" Background="White" Click="btn_bloodbank"/>
+        <Button x:Name="button_Copy1" Content="Click Here" HorizontalAlignment="Left" Margin="488,213,0,0" VerticalAlignment="Top" Width="117" Height="39" FontSize="16" FontWeight="Bold" Background="White" Click="btn_UV"/>
+        <Button x:Name="button1" Content="Back" HorizontalAlignment="Left" Margin="488,320,0,0" VerticalAlignment="Top" Width="117" Height="42" Background="White" FontWeight="Bold" FontSize="15" Click="button1_Click"/>
+
+    </Grid>
+</Window>

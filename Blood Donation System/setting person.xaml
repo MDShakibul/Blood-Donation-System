@@ -1,0 +1,23 @@
+﻿<Window x:Class="Blood_Donation_System.setting_person"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Donation_System"
+        mc:Ignorable="d"
+        Title="setting_person" Height="550" Width="720">
+    <Grid Background="#FFD7D7D7">
+        <Label x:Name="label_Copy" Content="Update Your Information " HorizontalAlignment="Left" Margin="254,27,0,0" VerticalAlignment="Top" Width="232" Height="42" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="label_Copy1" Content="Enter Your Member ID :" HorizontalAlignment="Left" Margin="29,91,0,0" VerticalAlignment="Top" Width="184" Height="38" FontSize="15" FontWeight="Bold"/>
+        <Label x:Name="label_Copy2" Content="Enter Your Password :" HorizontalAlignment="Left" Margin="29,135,0,0" VerticalAlignment="Top" Width="184" Height="38" FontSize="15" FontWeight="Bold"/>
+        <TextBox x:Name="txt_id" HorizontalAlignment="Left" Height="38" Margin="239,91,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" FontSize="15"/>
+        <TextBox x:Name="txt_pass" HorizontalAlignment="Left" Height="38" Margin="239,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" FontSize="15"/>
+        <Button x:Name="button_Copy" Content="Update" HorizontalAlignment="Left" Margin="545,133,0,0" VerticalAlignment="Top" Width="115" Height="42" FontWeight="Bold" FontSize="14" Background="White" Click="button_Copy_Click"/>
+        <Label x:Name="label_Copy3" Content="Update Your Information " HorizontalAlignment="Left" Margin="254,264,0,0" VerticalAlignment="Top" Width="232" Height="42" FontSize="18" FontWeight="Bold"/>
+        <Label x:Name="label_Copy4" Content="Enter Your Member ID :" HorizontalAlignment="Left" Margin="29,321,0,0" VerticalAlignment="Top" Width="184" Height="38" FontSize="15" FontWeight="Bold"/>
+        <TextBox x:Name="txt_delete" HorizontalAlignment="Left" Height="38" Margin="239,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="277" FontSize="15"/>
+        <Button x:Name="button_Copy2" Content="Delete" HorizontalAlignment="Left" Margin="543,307,0,0" VerticalAlignment="Top" Width="115" Height="42" FontWeight="Bold" FontSize="14" Background="White" Click="button_Copy2_Click"/>
+        <Button x:Name="button_Copy3" Content="Back" HorizontalAlignment="Left" Margin="543,441,0,0" VerticalAlignment="Top" Width="115" Height="42" FontWeight="Bold" FontSize="14" Background="White" Click="button_Copy3_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,22 @@
+﻿<Window x:Class="Blood_Donation_System.For_getting_blood"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Donation_System"
+        mc:Ignorable="d"
+        Title="For_getting_blood" Height="400" Width="720">
+    <Grid Background="#FFD7D7D7">
+        <Label x:Name="label" Content="Getting Blood from People" HorizontalAlignment="Left" Margin="77,88,0,0" VerticalAlignment="Top" Width="353" Height="33" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="label_Copy" Content="Getting Blood from Blood Bank" HorizontalAlignment="Left" Margin="77,140,0,0" VerticalAlignment="Top" Width="353" Height="33" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="label_Copy1" Content="Getting Blood from University Blood Group" HorizontalAlignment="Left" Margin="77,188,0,0" VerticalAlignment="Top" Width="353" Height="33" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="button" Content="Click Hare" HorizontalAlignment="Left" Margin="454,88,0,0" VerticalAlignment="Top" Width="98" Height="33" FontWeight="Bold" FontSize="16" Background="White" Click="btn_getting1"/>
+        <Button x:Name="button_Copy" Content="Click Hare" HorizontalAlignment="Left" Margin="454,140,0,0" VerticalAlignment="Top" Width="98" Height="33" FontWeight="Bold" FontSize="16" Background="White" Click="btn_getting2"/>
+        <Button x:Name="button_Copy1" Content="Click Hare" HorizontalAlignment="Left" Margin="454,188,0,0" VerticalAlignment="Top" Width="98" Height="33" FontWeight="Bold" FontSize="16" Background="White" Click="btn_getting3"/>
+        <Button x:Name="button_Copy2" Content="Setting" HorizontalAlignment="Left" Margin="566,88,0,0" VerticalAlignment="Top" Width="98" Height="33" FontWeight="Bold" FontSize="16" Background="White" Click="btn_setper"/>
+        <Button x:Name="button_Copy3" Content="Setting" HorizontalAlignment="Left" Margin="566,140,0,0" VerticalAlignment="Top" Width="98" Height="33" FontWeight="Bold" FontSize="16" Background="White" Click="btn_setbank"/>
+        <Button x:Name="button_Copy4" Content="Setting" HorizontalAlignment="Left" Margin="566,188,0,0" VerticalAlignment="Top" Width="98" Height="33" FontWeight="Bold" FontSize="16" Background="White" Click="btn_setUV"/>
+        <Button x:Name="button1" Content="Log Out" HorizontalAlignment="Left" Margin="566,306,0,0" VerticalAlignment="Top" Width="98" Height="34" FontSize="15" FontWeight="Bold" Background="White" Click="button1_Click"/>
+
+    </Grid>
+</Window>
